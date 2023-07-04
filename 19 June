@@ -1,1 +1,15 @@
+Introduction to Machine Learning:
+-The idea of learning from examples and experience w/o being explicitly programmed.
+-Instead of writing code, we feed data to a generic algorithm, and it builds logic based on the data given.
 
+Three types of ML:
+-Supervised Learning (i/p and o/p data available)
+-Unsupervised Learning (only i/p data available)
+-Reinforcement Learning (expose the model to the real system and it will learn itself based on renewal or penalty)
+
+Supervised learning:
+-Dependent variable (y) and independent variable (x)
+-Learns from previous data
+-Two Subtypes:
+	-Classification: o/p is a group or category eg-black or white, spam or not spam
+	-Regression: o/p is a real value eg- rupees, height
