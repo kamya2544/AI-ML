@@ -13,3 +13,20 @@ Supervised learning:
 -Two Subtypes:
 	-Classification: o/p is a group or category eg-black or white, spam or not spam
 	-Regression: o/p is a real value eg- rupees, height
+
+Unsupervised Learning:
+-Only i/p data is available
+-System finds patterns directly from examples
+-Two Subtypes:
+	-Association: discover rules that describe large positions of data eg- people who buy apples tend to buy mango, on Amazon there is a "people also bought" and "often bought together" column 
+	-Clustering: discover inherent clusters in data eg- kids usually purchase chocolates, boys usually purchase batteries, girls usually purchase stationery
+
+Reinforcement Learning:
+-Comp prog interacts with a dynamic environment in which it must perform a particular goal
+-Depending on the task we change, the reward and penalty are decided
+
+Applications:
+-Face Detection
+-Email Filtering
+-Medical Diagnosis
+-Weather Prediction
