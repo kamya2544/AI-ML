@@ -1,0 +1,74 @@
+Python Notes
+
+print Keyword Basic Rules:
+-if we put (") or (') it gives the same output without any error since in python character and string are considered as string only
+-at the end of a statement, a semicolon (;) isn't necessary
+
+- print ("Hello!" * 3) gives output Hello!Hello!Hello!
+
+- print ("Hello! \n" * 3) gives output  Hello!
+					Hello!
+					Hello!
+- print ("Hello!" * 3.5) gives an error as a string can be multiplied by only an integer
+- print("hi")
+  print("hello")
+  print("bye")
+	It gives an o/p: hi
+			 hello
+		 	 bye
+- print("hi", end='\t')
+  print("hello", end='\t')
+  print("bye", end='\t')
+	It gives an o/p: hi	hello	bye
+
+- print("hi", "hello", "bye")
+	It gives an o/p: hi hello bye
+	Here space is there after every string because there is an argument called separator whose default value is a space
+	print("hi", "hello", "bye", sep=' ')
+
+- print("hi" + "hello" + "bye")
+	It gives an o/p: hihellobye
+	CONCATENATION 
+	No space is added by default, we can use \t or \n
+
+-f means format string: Concept of static data used here (within curly braces{})
+CASE 1
+print(f"hello {2 + 2}") 
+o/p is 4
+
+CASE 2
+print(f"hello {2 + 2.4}") 
+o/p is 4.4
+
+CASE 3
+print(f"hello {'2 + 2'}") 
+o/p is 2 + 2
+
+CASE 4
+print("hello {2 + 2.4}")
+o/p hello {2 + 2.4}
+
+CASE 5
+print("hello {2 + 2.4}, format[2]")
+
+CASE 6
+print("hello {}".format(2)) prints hello 2
+print("hello { }".format(2)) prints error
+print("hello ".format(2)) ;prints error
+
+COMMENTS:
+# sign can be used to give comments within the code
+
+ARITHMETIC OPERATORS:
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+// Floor Division (gives float o/p if one or both i/ps are float)
+** Exponentiation/ Power
+
+TYPE KEYWORD:
+print (type(4)) 
+o/p <class 'int'>
+-used to tell the type of given data
+- since python is based on oops so everything is related to objects in classes
