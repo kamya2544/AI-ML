@@ -72,3 +72,11 @@ print (type(4))
 o/p <class 'int'>
 -used to tell the type of given data
 - since python is based on oops so everything is related to objects in classes
+
+DECLARING VARIABLES:
+-In Python, we don't need to specify the data type just simply write-----> a=5
+- a,b,c=2,3.4,"hello" is one way of declaring in a single line
+- a=2; b=3.4; c="hello" is other way
+
+SWAPPING VARIABLES:
+a,b=b,a
