@@ -98,7 +98,7 @@ print("hello { }".format(2)) prints error
 print("hello ".format(2)) ;prints error
 
 COMMENTS:
-# sign can be used to give comments within the code
+"#" sign can be used to give comments within the code
 
 ARITHMETIC OPERATORS:
 + Addition
