@@ -80,3 +80,69 @@ DECLARING VARIABLES:
 
 SWAPPING VARIABLES:
 a,b=b,a
+
+input KEYWORD:
+-Getting input from the user
+-user_inp=input ("Enter some value: ")
+ print (user_inp)
+-i/p can be any data type
+- print (type(user_inp))
+	It returns <class 'str'> because the input keyword accepts everything as string data type
+
+ADDITION OF TWO VARIABLES:
+x=input ("Enter first value: ")
+y=input ("Enter second value: ")
+z= (x+y) 
+	It will concatenate as a string as input accepts every value as a string
+
+print (type(z))
+	o/p is <class 'str'>
+
+a=int (input ("Enter first value: "))
+b=int (input ("Enter second value: "))
+c= (a+b) 
+print (c)
+	It will do addition since we declared int data type to input keyword
+
+print (type(c))
+	o/p is <class 'int'>
+
+COMPARISON OPERATORS:
+> < >= <= == =!
+Gives o/p as true or false
+
+LOGICAL OPERATORS:
+or, and, not
+Gives o/p as true or false
+
+MEMBERSHIP OPERATORS:
+in, not in
+Kind of searching operator
+Case sensitivity is taken into consideration 
+h and H are treated differently
+
+CONDITIONAL STATEMENTS:
+- ':' isn't used for termination as in {} are used in C++ or Java but as indentation for the command statement of the condition
+- if...else
+- if...elif...else
+- We can use as many elif statements as we want
+- Checks one statement at a time and executes the statement which is true
+- Can be nested as many no. of times as we want
+
+SLICING:
+- Extracting a part of data using the concept of INDEXING
+- positive index (0 onwards) from left side
+- negative index (-1 onwards) from right side
+- spaces, tabs, punctuators etc. also have index since they occupy memory
+-print (message[3])
+	o/p will be the character at 3 index that is fourth character since indexing starts at 0
+-print (message[0:3]) 
+	o/p will be index 012
+	0 index character to the character before 3 index
+- [:3] from start to 3 index
+- [3:] from 3 index to last
+- [:] from start to end
+- [0:11:2] 2 STEP INDEX --> skips one letter and prints from 0 to 11 index that is prints 0,2,4,6,8,10th index character
+- [0:11:1] 1 STEP INDEX --> prints from 0 to 11 index skipping 0 characters 
+- [::3] skip two values
+- [::-1] REVERSING THE DATA
